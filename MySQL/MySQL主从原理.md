@@ -30,6 +30,7 @@ SQL线程,会读取relay log文件中的日志,并解析成sql语句逐一执行
 3. Mysql复制至少需要两个Mysql的服务，当然Mysql服务可以分布在不同的服务器上，也可以在一台服务器上启动多个服务。 
 4. Mysql复制最好确保master和slave服务器上的Mysql版本相同（如果不能满足版本一致，那么要保证master主节点的版本低于slave从节点的版本） 
 5. master和slave两节点间时间需同步
+
 ![blockchain](./../src/1.jpg)
 
 ## 具体步骤：
