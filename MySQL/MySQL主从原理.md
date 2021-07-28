@@ -56,7 +56,7 @@ SQL线程,会读取relay log文件中的日志,并解析成sql语句逐一执行
 ![blockchain](./../src/5.jpg)
 
 ### 联级复制
-![blockchain](./../src/.jpg)
+![blockchain](./../src/6.jpg)
 
 
 
